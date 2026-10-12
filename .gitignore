@@ -6,3 +6,4 @@ release/
 *.aab
 local.properties
 .DS_Store
+*.tsbuildinfo

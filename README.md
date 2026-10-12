@@ -65,6 +65,8 @@ The script builds the React app, syncs the Capacitor project, installs native so
 
 You may also find the Gradle output in `android/app/build/outputs/apk/debug/app-debug.apk`.
 
+The installed app uses immersive fullscreen mode, with system bars available by swiping. Native launch screens use the DataWatch emblem on the dark brand background, followed by the existing branded web splash. Android layouts fill the display on phones, tablets and in landscape. These settings are reapplied by `android:sync`.
+
 **Important:** A debug APK is for testing. For publishing, use a signed Android release / AAB from Android Studio with your own signing key.
 
 ## Android permission & behavior
